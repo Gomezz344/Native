@@ -1,0 +1,3 @@
+addProduct = (product) => {
+    setProduct((currentProducts) => [...currentProducts, product])
+} 
